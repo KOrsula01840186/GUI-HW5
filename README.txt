@@ -4,6 +4,8 @@ Project: GUI HW5 - Single Line Scrabble
 Github Link:
 Pages Link:
 
+READ: When I uploaded the files to github, for some reason it no longer wants to show the black tile as having an image, even though there is one in the correct spot, and it works find on my local device.
+
 WriteUP:
 Tiles in the players hand are randomly selected from a data structure with the propper distribution of letters. Completed using Ramon Meza and Jason Downings Structure, but no json.
     const data = {"pieces": [...]}
