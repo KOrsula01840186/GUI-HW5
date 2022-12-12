@@ -1,0 +1,57 @@
+<!--Name: Kevin Orsula-->
+<!--Email: kevin_orsula@student.uml.edu-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport">
+  <title>Kevin Orsula - Scrabble Single Line</title>
+  <!--styling-->
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	
+	<div id="board"> <!--Div used to set up the game board-->
+	    <img  id="doubleWord1"       class="board valid"></img> <!--double word image tile-->
+		<img  id="regularBoardSlot1" class="board valid"></img> <!--regular board tile-->
+		<img  id="regularBoardSlot2" class="board valid"></img> <!--regular board tile-->
+		<img  id="regularBoardSlot3" class="board valid"></img> <!--regular board tile-->
+		<img  id="doubleLetter1"     class="board valid"></img> <!--double letter image tile-->
+		<img  id="regularBoardSlot4" class="board valid"></img> <!--regular board tile-->
+		<img  id="doubleLetter2"     class="board valid"></img> <!--double letter image tile-->
+		<img  id="regularBoardSlot5" class="board valid"></img> <!--regular board tile-->
+		<img  id="regularBoardSlot6" class="board valid"></img> <!--regular board tile-->
+		<img  id="regularBoardSlot7" class="board valid"></img> <!--regular board tile-->
+		<img  id="doubleWord2"       class="board valid"></img> <!--double word image tile-->
+	</div>
+
+	<div id="rack" class="valid"></div> <!--dive used to set up the rack-->
+
+	<div id="letterTiles"> <!--div used to create the letters-->
+		<img id="letterTile1" class="letterTile"></img> <!--letter tiles in order that will change during the game-->
+		<img id="letterTile2" class="letterTile"></img>
+		<img id="letterTile3" class="letterTile"></img>
+		<img id="letterTile4" class="letterTile"></img>
+		<img id="letterTile5" class="letterTile"></img>
+		<img id="letterTile6" class="letterTile"></img>
+		<img id="letterTile7" class="letterTile"></img>
+	</div>
+
+	<button id="newGame">New Game</button> <!--button used to resart the game-->
+	<button id="submitWord">Submit Word</button> <!--button used to submit the word on the board-->
+
+	<div id="scoreBoard"> <!--score board used to view the updating daya-->
+		<p id="currentWordScore"></p> <!--word score updated every tile a draggable changes droppable areas-->
+		<p id="totalScore"></p> <!--totalscore updated every tile the Submit Word button is clicked-->
+		<p id="remainingTiles2"></p> <!--updated whenever a button us clicked to view what tiles are left in the deck-->
+	</div>
+
+	<!--scripts needed-->
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script	src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

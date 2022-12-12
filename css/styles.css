@@ -1,0 +1,40 @@
+/* Name: Kevin Orsula
+   Email: kevin_orsula@student.uml.edu */
+
+body {
+    min-width: 1407px;
+    min-height: 435;
+}
+.board { /*styling for the board tiles*/
+    width: 120px; 
+    height: 120px; 
+    border: 2px solid black;
+    background-color: white;
+}
+.letterTile { /*styling for each individual letterTile*/
+    width: 90px; 
+    height: 90px;
+    position: absolute;
+    z-index: 5;
+}
+
+#rack { /*provides the background-image of the wooden rack*/
+    background-image: url("../img/rack.png");
+    width: 670px;
+    height: 130px;   
+}
+
+#newGame { /*button styling*/
+    font-size: large;
+    width: 150px; 
+    height: 50px; 
+    margin: 5px;
+}
+#submitWord { /*button styling*/
+    font-size: large;
+    width: 150px; 
+    height: 50px;
+}
+#scoreBoard { /*changes the text size of the scoreboard outputs*/
+    font-size: large;
+}
