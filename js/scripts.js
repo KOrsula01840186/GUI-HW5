@@ -8,7 +8,7 @@ var score = 0; //Variable to carry the current word score
 var totaldoubleWord = 1; //Multiplier needed for double word scoring
 var remainingTilesCount = 0; //Count of the remaining tiles in remainingTilesArray
 
-const data = {"pieces": [ //Data Structure to Contain the data of the tiles
+const data = {"pieces": [ //Data Structure to Contain the data of the tiles taken from the assignment file, by Ramon Meza
 			{"letter":"A", "value":1,  "amount":9}, {"letter":"B", "value":3 , "amount":2 }, {"letter":"C", "value":3,  "amount":2},
 			{"letter":"D", "value":2,  "amount":4}, {"letter":"E", "value":1 , "amount":12}, {"letter":"F", "value":4,  "amount":2},
 	        {"letter":"G", "value":2,  "amount":3}, {"letter":"H", "value":4 , "amount":2 }, {"letter":"I", "value":1,  "amount":9},
