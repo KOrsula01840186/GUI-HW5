@@ -2,7 +2,7 @@ Name: Kevin Orsula
 Email: kevin_orsula@student.uml.edu
 Project: GUI HW5 - Single Line Scrabble
 Github Link:
-Pages Link:
+Pages Link: https://korsula01840186.github.io/GUI-HW5/
 
 READ: When I uploaded the files to github, for some reason it no longer wants to show the black tile as having an image, even though there is one in the correct spot, and it works find on my local device.
 
